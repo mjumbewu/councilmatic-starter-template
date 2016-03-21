@@ -20,7 +20,15 @@ CITY_VOCAB = {
     'EVENTS': 'Meetings',               # label for the events listing, e.g. 'Events'
 }
 
-APP_NAME = 'chicago'
+CITY_APP = 'chicago'
+
+
+# Internationalization / Localization
+# https://docs.djangoproject.com/en/1.8/topics/i18n/
+
+LANGUAGE_CODE = 'en-us'
+
+TIME_ZONE = 'America/Chicago'
 
 
 #########################
